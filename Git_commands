@@ -1,0 +1,39 @@
+1. git init  
+   - Initializes a new Git repository in the current directory.  
+     Example: git init
+
+2. git clone <repository_url>  
+   - Creates a copy of an existing repository from GitHub or another source.  
+     Example: git clone https://github.com/user/repo.git
+
+3. git add <file_name>  
+   - Stages changes (adds them to the next commit).  
+     Example: git add index.html
+
+4. git commit -m "message"  
+   - Saves the staged changes in the repository with a descriptive message.  
+     Example: git commit -m "Added new feature"
+
+5. git status  
+   - Displays the state of the working directory and staging area (what’s modified, staged, or untracked).  
+     Example: git status
+
+6. git log  
+   - Shows a history of commits in the repository.  
+     Example: git log
+
+7. git branch  
+   - Lists, creates, or deletes branches.  
+     Example: git branch new-feature
+
+8. git checkout <branch_name>  
+   - Switches to another branch or commit.  
+     Example: git checkout main
+
+9. git merge <branch_name>  
+   - Combines changes from the specified branch into the current branch.  
+     Example: git merge new-feature
+
+10. git push origin <branch_name>  
+    - Uploads local commits to a remote repository (like GitHub).  
+      Example: git push origin main
